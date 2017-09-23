@@ -12,6 +12,7 @@
 		9B0BC2D71F76D43300F4BA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BC2D51F76D43300F4BA0A /* Main.storyboard */; };
 		9B0BC2D91F76D43300F4BA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BC2D81F76D43300F4BA0A /* Assets.xcassets */; };
 		9B0BC2DC1F76D43300F4BA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BC2DA1F76D43300F4BA0A /* LaunchScreen.storyboard */; };
+		9B0BC2E41F76D46E00F4BA0A /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BC2E31F76D46E00F4BA0A /* SideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9B0BC2D81F76D43300F4BA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B0BC2DB1F76D43300F4BA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B0BC2DD1F76D43300F4BA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0BC2E31F76D46E00F4BA0A /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				9B0BC2D11F76D43300F4BA0A /* AppDelegate.swift */,
+				9B0BC2E31F76D46E00F4BA0A /* SideMenu.swift */,
 				9B0BC2D31F76D43300F4BA0A /* ViewController.swift */,
 				9B0BC2D51F76D43300F4BA0A /* Main.storyboard */,
 				9B0BC2D81F76D43300F4BA0A /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0BC2E41F76D46E00F4BA0A /* SideMenu.swift in Sources */,
 				9B0BC2D41F76D43300F4BA0A /* ViewController.swift in Sources */,
 				9B0BC2D21F76D43300F4BA0A /* AppDelegate.swift in Sources */,
 			);
